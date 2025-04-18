@@ -4,7 +4,7 @@ import catppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://catppuccin-starlight.otterlord.dev",
+	site: "https://starlight.catppuccin.com",
 	integrations: [
 		starlight({
 			title: "Catppuccin",
