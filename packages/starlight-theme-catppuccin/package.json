@@ -1,41 +1,42 @@
 {
-	"name": "@catppuccin/starlight",
-	"version": "0.0.0",
-	"type": "module",
-	"exports": {
-		".": "./index.ts",
-		"./styles/*": "./styles/*",
-		"./themes/*": "./themes/*"
-	},
-	"homepage": "https://starlight.catppuccin.com/",
-	"author": "Reuben Tier <otterlord.dev@gmail.com>",
-	"contributors": [
-		"Louis Escher <louisescher@proton.me>"
-	],
-	"files": [
-		"index.ts",
-		"styles",
-		"themes"
-	],
-	"keywords": [
-		"withastro",
-		"starlight",
-		"catppuccin"
-	],
-	"scripts": {
-		"dev": "nodemon --watch \"./starlight.tera\" -e tera --exec \"pnpm build\"",
-		"build": "whiskers starlight.tera"
-	},
-	"devDependencies": {
-		"astro": "catalog:",
-		"nodemon": "^3.1.7",
-		"typescript": "catalog:"
-	},
-	"peerDependencies": {
-		"@astrojs/starlight": "^0.32.0",
-		"astro": "^5.0.0"
-	},
-	"dependencies": {
-		"@astrojs/starlight": "catalog:"
-	}
+  "name": "@catppuccin/starlight",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./styles/*": "./styles/*",
+    "./themes/*": "./themes/*"
+  },
+  "homepage": "https://starlight.catppuccin.com/",
+  "author": "Reuben Tier <otterlord.dev@gmail.com>",
+  "contributors": [
+    "Louis Escher <louisescher@proton.me>"
+  ],
+  "files": [
+    "index.ts",
+    "styles",
+    "themes"
+  ],
+  "keywords": [
+    "withastro",
+    "starlight",
+    "catppuccin"
+  ],
+  "scripts": {
+    "dev": "nodemon --watch \"./starlight.tera\" -e tera --exec \"pnpm build\"",
+    "build": "whiskers starlight.tera"
+  },
+  "devDependencies": {
+    "astro": "catalog:",
+    "nodemon": "^3.1.7",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "@astrojs/starlight": "^0.32.0",
+    "astro": "^5.0.0"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "catalog:"
+  }
 }

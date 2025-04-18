@@ -1,11 +1,13 @@
 {
   "name": "catppuccin-starlight",
   "version": "0.0.1",
+  "private": "true",
   "scripts": {
     "dev": "concurrently \"pnpm --filter docs dev\" \"pnpm --filter @catppuccin/starlight dev\"",
     "build": "pnpm --filter @catppuccin/starlight --filter docs build"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"
-  }
+  },
+  "packageManager": "pnpm@10.8.1"
 }

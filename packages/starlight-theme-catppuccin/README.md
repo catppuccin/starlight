@@ -6,81 +6,83 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/TheOtterlord/catppuccin-starlight/stargazers"><img src="https://img.shields.io/github/stars/TheOtterlord/catppuccin-starlight?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/TheOtterlord/catppuccin-starlight/issues"><img src="https://img.shields.io/github/issues/TheOtterlord/catppuccin-starlight?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/TheOtterlord/catppuccin-starlight/contributors"><img src="https://img.shields.io/github/contributors/TheOtterlord/catppuccin-starlight?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/starlight/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/starlight?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/starlight/issues"><img src="https://img.shields.io/github/issues/catppuccin/starlight?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/starlight/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/starlight?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-![Catppuccin Starlight Preview](https://raw.githubusercontent.com/TheOtterlord/catppuccin-starlight/refs/heads/main/assets/preview.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/starlight/main/assets/preview.webp"/>
+</p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/TheOtterlord/catppuccin-starlight/refs/heads/main/assets/latte.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/starlight/main/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/TheOtterlord/catppuccin-starlight/refs/heads/main/assets/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/starlight/main/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/TheOtterlord/catppuccin-starlight/refs/heads/main/assets/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/starlight/main/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/TheOtterlord/catppuccin-starlight/refs/heads/main/assets/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/starlight/main/assets/mocha.webp"/>
 </details>
 
 ## Usage
 
 1. Install the theme package to your project with your preferred package manager:
-```sh
-npm install @catppuccin/starlight
-pnpm add @catppuccin/starlight
-yarn add @catppuccin/starlight
-```
+
+   ```sh
+   npm install @catppuccin/starlight
+   pnpm add @catppuccin/starlight
+   yarn add @catppuccin/starlight
+   ```
 
 2. Add the theme to your Starlight config.
 
-```ts
-import catppuccin from "@catppuccin/starlight";
+   ```ts
+   import catppuccin from "@catppuccin/starlight";
 
-export default defineConfig({
-  // ...
-  integrations: [
-    starlight({
-      // ...
-      plugins: [
-        catppuccin()
-      ]
-    })
-  ]
-})
-```
+   export default defineConfig({
+     // ...
+     integrations: [
+       starlight({
+         // ...
+         plugins: [catppuccin()],
+       }),
+     ],
+   });
+   ```
 
-3. (Optional) Customize your theme for light/dark mode using `flavor` and `accent`.
+3. **(Optional)** Customize your theme for light/dark mode using `flavor` and `accent`.
 
-```ts
-import catppuccin from "@catppuccin/starlight";
+   ```ts
+   import catppuccin from "@catppuccin/starlight";
 
-export default defineConfig({
-  // ...
-  integrations: [
-    starlight({
-      // ...
-      plugins: [
-        catppuccin({ 
-          dark: { flavor: "macchiato", accent: "sky" },
-          light: { flavor: "latte", accent: "sky" }
-        })
-      ]
-    })
-  ]
-})
-```
+   export default defineConfig({
+     // ...
+     integrations: [
+       starlight({
+         // ...
+         plugins: [
+           catppuccin({
+             dark: { flavor: "macchiato", accent: "sky" },
+             light: { flavor: "latte", accent: "sky" },
+           }),
+         ],
+       }),
+     ],
+   });
+   ```
 
 ## 💝 Thanks to
+
 - [TheOtterlord](https://github.com/TheOtterlord)
 - [Louis Escher](https://github.com/louisescher)
 
