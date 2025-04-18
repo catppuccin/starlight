@@ -24,6 +24,7 @@
     "catppuccin"
   ],
   "scripts": {
+    "prepare": "pnpm build",
     "dev": "nodemon --watch \"./starlight.tera\" -e tera --exec \"pnpm build\"",
     "build": "whiskers starlight.tera"
   },
