@@ -17,7 +17,7 @@ export default defineConfig({
 				{
 					label: "GitHub",
 					icon: "github",
-					href: "https://github.com/TheOtterlord/catppuccin-starlight",
+					href: "https://github.com/catppuccin/starlight",
 				},
 			],
 			expressiveCode: {
@@ -31,7 +31,7 @@ export default defineConfig({
 							"color-mix(in oklab, var(--sl-color-red-high) 25%, var(--sl-color-gray-6));",
 						delBorderColor: "var(--sl-color-gray-5)",
 					},
-	        codeBackground: "var(--sl-color-gray-6)",
+					codeBackground: "var(--sl-color-gray-6)",
 				},
 			},
 			customCss: [
@@ -54,5 +54,5 @@ export default defineConfig({
 			],
 			plugins: [catppuccin()],
 		}),
-	]
+	],
 });
