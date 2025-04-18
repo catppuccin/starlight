@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org"
+  },
   "exports": {
     ".": "./index.ts",
     "./styles/*": "./styles/*",
