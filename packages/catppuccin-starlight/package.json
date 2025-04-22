@@ -39,7 +39,7 @@
     "typescript": "catalog:"
   },
   "peerDependencies": {
-    "@astrojs/starlight": "^0.32.0",
+    "@astrojs/starlight": ">=0.32",
     "astro": "^5.0.0"
   },
   "dependencies": {
