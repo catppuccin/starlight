@@ -28,7 +28,7 @@ importers:
     devDependencies:
       concurrently:
         specifier: ^9.0.1
-        version: 9.0.1
+        version: 9.1.2
 
   apps/docs:
     dependencies:
@@ -43,7 +43,7 @@ importers:
         version: link:../../packages/catppuccin-starlight
       '@fontsource/inter':
         specifier: ^5.1.0
-        version: 5.1.0
+        version: 5.2.5
       astro:
         specifier: 'catalog:'
         version: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
@@ -52,7 +52,7 @@ importers:
         version: 0.34.1
       starlight-package-managers:
         specifier: ^0.8.0
-        version: 0.8.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)))(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
+        version: 0.8.1(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)))
       typescript:
         specifier: 'catalog:'
         version: 5.5.4
@@ -68,7 +68,7 @@ importers:
         version: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
       nodemon:
         specifier: ^3.1.7
-        version: 3.1.7
+        version: 3.1.9
       typescript:
         specifier: 'catalog:'
         version: 5.5.4
@@ -347,8 +347,8 @@ packages:
   '@expressive-code/plugin-text-markers@0.41.1':
     resolution: {integrity: sha512-PFvk91yY+H8KVEcyZSrktLoWzBgLVpowvMxOJooFn74roGxnU4TEBJpWcRnJFtMEwTLzWNnk10MSOApOccvSKg==}
 
-  '@fontsource/inter@5.1.0':
-    resolution: {integrity: sha512-zKZR3kf1G0noIes1frLfOHP5EXVVm0M7sV/l9f/AaYf+M/DId35FO4LkigWjqWYjTJZGgplhdv4cB+ssvCqr5A==}
+  '@fontsource/inter@5.2.5':
+    resolution: {integrity: sha512-kbsPKj0S4p44JdYRFiW78Td8Ge2sBVxi/PIBwmih+RpSXUdvS9nbs1HIiuUSPtRMi14CqLEZ/fbk7dj7vni1Sg==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1014,8 +1014,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concurrently@9.0.1:
-    resolution: {integrity: sha512-wYKvCd/f54sTXJMSfV6Ln/B8UrfLBKOYa+lzc6CHay3Qek+LorVSBdMVfyewFhRbH0Rbabsk4D+3PL/VjQ5gzg==}
+  concurrently@9.1.2:
+    resolution: {integrity: sha512-H9MWcoPsYddwbOGM6difjVwVZHl63nwMEwDJG/L7VGtuaJhb12h2caPG2tVPWs7emuYix252iGfqOyrz1GczTQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1658,8 +1658,8 @@ packages:
   node-mock-http@1.0.0:
     resolution: {integrity: sha512-0uGYQ1WQL1M5kKvGRXWQ3uZCHtLTO8hln3oBjIusM75WoesZ909uQJs/Hb946i2SS+Gsrhkaa6iAO17jRIv6DQ==}
 
-  nodemon@3.1.7:
-    resolution: {integrity: sha512-hLj7fuMow6f0lbB0cD14Lz2xNjwsyruH251Pk4t/yIitCFJbmY1myuLlHm/q06aST4jg6EgAh74PIBBrRqpVAQ==}
+  nodemon@3.1.9:
+    resolution: {integrity: sha512-hdr1oIb2p6ZSxu3PB2JWWYS7ZQ0qvaZsc3hK8DR8f02kRzc8rjYmxAIvdz+aYC+8F2IjNaB7HMcSDg8nQpJxyg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1958,12 +1958,11 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  starlight-package-managers@0.8.0:
-    resolution: {integrity: sha512-FietpigUue9fViKumtt4978F41QPYkbywk5ysZR3242pzBb0+RLfF/IHA9xjNEEYw5/ZMrcBfXRVt+yoVA1SDA==}
-    engines: {node: '>=18.14.1'}
+  starlight-package-managers@0.8.1:
+    resolution: {integrity: sha512-a+zGIOdbN7B4T/VaszuvW8585Aau4LSU8HlVCmBCJJwxkrGAUC9lRya4y0md5tOAFyW/gfhUNJZM8qqyMNTe7Q==}
+    engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.22.0'
-      astro: '>=4.2.7'
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -2744,7 +2743,7 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.1
 
-  '@fontsource/inter@5.1.0': {}
+  '@fontsource/inter@5.2.5': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -3431,7 +3430,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concurrently@9.0.1:
+  concurrently@9.1.2:
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
@@ -4490,7 +4489,7 @@ snapshots:
 
   node-mock-http@1.0.0: {}
 
-  nodemon@3.1.7:
+  nodemon@3.1.9:
     dependencies:
       chokidar: 3.6.0
       debug: 4.4.0(supports-color@5.5.0)
@@ -4961,10 +4960,9 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-package-managers@0.8.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)))(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)):
+  starlight-package-managers@0.8.1(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))):
     dependencies:
       '@astrojs/starlight': 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
-      astro: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
 
   stream-replace-string@2.0.0: {}
 
