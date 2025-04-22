@@ -51,8 +51,8 @@ importers:
         specifier: 'catalog:'
         version: 0.34.1
       starlight-package-managers:
-        specifier: ^0.8.0
-        version: 0.8.1(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)))
+        specifier: ^0.11.0
+        version: 0.11.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)))
       typescript:
         specifier: 'catalog:'
         version: 5.5.4
@@ -1959,8 +1959,8 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  starlight-package-managers@0.8.1:
-    resolution: {integrity: sha512-a+zGIOdbN7B4T/VaszuvW8585Aau4LSU8HlVCmBCJJwxkrGAUC9lRya4y0md5tOAFyW/gfhUNJZM8qqyMNTe7Q==}
+  starlight-package-managers@0.11.0:
+    resolution: {integrity: sha512-ItOgeF4YYI4lKaeqGBuRBNsmPTXQv16Pc7U+hzkvJoR9HzOxhk2wSNkRzxSnqX5OZmmsAwDy49NYqpFyzkO8Bw==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.22.0'
@@ -4958,7 +4958,7 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-package-managers@0.8.1(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))):
+  starlight-package-managers@0.11.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))):
     dependencies:
       '@astrojs/starlight': 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
 
