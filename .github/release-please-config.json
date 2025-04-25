@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "last-release-sha": "9c8c92778754e370fa170c3a8d51af6d9c796701",
+  "include-component-in-tag": false,
+  "packages": {
+    "packages/catppuccin-starlight": {
+      "package-name": "",
+      "release-type": "node"
+    }
+  }
+}

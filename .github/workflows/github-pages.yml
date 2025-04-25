@@ -16,14 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: catppuccin/setup-whiskers@v2.0.0
-      - name: Generate Theme
-        run: whiskers starlight.tera
-        working-directory: packages/catppuccin-starlight
       - name: Build & Upload Site
         uses: withastro/action@v4
         with:
           path: ./apps/docs
-          package-manager: pnpm@10.8.1
+          package-manager: pnpm@10.9.0
 
   deploy:
     needs: build
