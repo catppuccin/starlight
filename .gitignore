@@ -1,6 +1,5 @@
 # build output
 dist/
-**/themes/
 # generated types
 .astro/
 

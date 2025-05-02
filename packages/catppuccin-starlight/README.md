@@ -81,6 +81,16 @@
    });
    ```
 
+## Development
+
+> [!IMPORTANT]  
+> [catppuccin/whiskers](https://github.com/catppuccin/whiskers) is required to re-generate the [themes](packages/catppuccin-starlight/themes) directory.
+
+```shell
+pnpm install
+pnpm build
+```
+
 ## 💝 Thanks to
 
 - [TheOtterlord](https://github.com/TheOtterlord)
