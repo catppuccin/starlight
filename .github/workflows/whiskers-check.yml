@@ -9,7 +9,7 @@ on:
 
 jobs:
   run:
-    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@feat/working-directory
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
     with:
       working-directory: packages/catppuccin-starlight
       args: starlight.tera
