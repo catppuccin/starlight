@@ -1,3 +1,8 @@
+/* align with style guide for main body copy -> `text` */
+:root {
+  --sl-color-text: var(--sl-color-white);
+}
+
 header, .right-sidebar, .content-panel {
   border-color: var(--sl-color-hairline-light) !important;
 }
