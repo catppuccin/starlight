@@ -3,6 +3,11 @@
   --sl-color-text: var(--sl-color-white);
 }
 
+/* increase contrast of ToC in the right sidebar */
+.right-sidebar-panel a:not(:hover):not([aria-current="true"]) {
+  color: var(--sl-color-gray-2);
+}
+
 header, .right-sidebar, .content-panel {
   border-color: var(--sl-color-hairline-light) !important;
 }
