@@ -3,7 +3,7 @@ packages:
   - "apps/*"
 
 catalog:
-  "@astrojs/starlight": ^0.34.0
+  "@astrojs/starlight": ^0.35.0
   "@astrojs/check": ^0.9.3
   astro: ^5.7.0
   sharp: ^0.34.0
