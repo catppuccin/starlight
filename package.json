@@ -7,7 +7,7 @@
     "build": "pnpm --filter @catppuccin/starlight --filter docs build"
   },
   "devDependencies": {
-    "concurrently": "^9.0.1"
+    "concurrently": "^9.2.0"
   },
   "packageManager": "pnpm@10.15.0"
 }
