@@ -18,9 +18,6 @@ catalogs:
     sharp:
       specifier: ^0.34.0
       version: 0.34.1
-    typescript:
-      specifier: ^5.5.4
-      version: 5.5.4
 
 importers:
 
@@ -28,50 +25,50 @@ importers:
     devDependencies:
       concurrently:
         specifier: ^9.0.1
-        version: 9.1.2
+        version: 9.2.0
 
   apps/docs:
     dependencies:
       '@astrojs/check':
         specifier: 'catalog:'
-        version: 0.9.3(typescript@5.5.4)
+        version: 0.9.3(typescript@5.9.2)
       '@astrojs/starlight':
         specifier: 'catalog:'
-        version: 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
+        version: 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))
       '@catppuccin/starlight':
         specifier: workspace:*
         version: link:../../packages/catppuccin-starlight
       '@fontsource/inter':
         specifier: ^5.1.0
-        version: 5.2.5
+        version: 5.2.6
       astro:
         specifier: 'catalog:'
-        version: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
+        version: 5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)
       sharp:
         specifier: 'catalog:'
         version: 0.34.1
       starlight-package-managers:
         specifier: ^0.11.0
-        version: 0.11.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)))
+        version: 0.11.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)))
       typescript:
         specifier: 'catalog:'
-        version: 5.5.4
+        version: 5.9.2
 
   packages/catppuccin-starlight:
     dependencies:
       '@astrojs/starlight':
         specifier: 'catalog:'
-        version: 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
+        version: 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))
     devDependencies:
       astro:
         specifier: 'catalog:'
-        version: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
+        version: 5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)
       nodemon:
         specifier: ^3.1.7
         version: 3.1.10
       typescript:
         specifier: 'catalog:'
-        version: 5.5.4
+        version: 5.9.2
 
 packages:
 
@@ -347,8 +344,8 @@ packages:
   '@expressive-code/plugin-text-markers@0.41.1':
     resolution: {integrity: sha512-PFvk91yY+H8KVEcyZSrktLoWzBgLVpowvMxOJooFn74roGxnU4TEBJpWcRnJFtMEwTLzWNnk10MSOApOccvSKg==}
 
-  '@fontsource/inter@5.2.5':
-    resolution: {integrity: sha512-kbsPKj0S4p44JdYRFiW78Td8Ge2sBVxi/PIBwmih+RpSXUdvS9nbs1HIiuUSPtRMi14CqLEZ/fbk7dj7vni1Sg==}
+  '@fontsource/inter@5.2.6':
+    resolution: {integrity: sha512-CZs9S1CrjD0jPwsNy9W6j0BhsmRSQrgwlTNkgQXTsAeDRM42LBRLo3eo9gCzfH4GvV7zpyf78Ozfl773826csw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1014,8 +1011,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concurrently@9.1.2:
-    resolution: {integrity: sha512-H9MWcoPsYddwbOGM6difjVwVZHl63nwMEwDJG/L7VGtuaJhb12h2caPG2tVPWs7emuYix252iGfqOyrz1GczTQ==}
+  concurrently@9.2.0:
+    resolution: {integrity: sha512-IsB/fiXTupmagMW4MNp2lx2cdSN2FfZq78vF90LBB+zZHArbIQZjQtzXCiXnvTxCZSvXanTqFLWBjw2UkLx1SQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2063,8 +2060,8 @@ packages:
   typescript-auto-import-cache@0.3.3:
     resolution: {integrity: sha512-ojEC7+Ci1ij9eE6hp8Jl9VUNnsEKzztktP5gtYNRMrTmfXVwA1PITYYAkpxCvvupdSYa/Re51B6KMcv1CTZEUA==}
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2434,13 +2431,13 @@ packages:
 
 snapshots:
 
-  '@astrojs/check@0.9.3(typescript@5.5.4)':
+  '@astrojs/check@0.9.3(typescript@5.9.2)':
     dependencies:
-      '@astrojs/language-server': 2.14.1(typescript@5.5.4)
+      '@astrojs/language-server': 2.14.1(typescript@5.9.2)
       chokidar: 3.6.0
       fast-glob: 3.3.2
       kleur: 4.1.5
-      typescript: 5.5.4
+      typescript: 5.9.2
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -2452,12 +2449,12 @@ snapshots:
 
   '@astrojs/internal-helpers@0.6.1': {}
 
-  '@astrojs/language-server@2.14.1(typescript@5.5.4)':
+  '@astrojs/language-server@2.14.1(typescript@5.9.2)':
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/yaml2ts': 0.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@volar/kit': 2.4.2(typescript@5.5.4)
+      '@volar/kit': 2.4.2(typescript@5.9.2)
       '@volar/language-core': 2.4.2
       '@volar/language-server': 2.4.2
       '@volar/language-service': 2.4.2
@@ -2502,12 +2499,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.4(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))':
+  '@astrojs/mdx@4.2.4(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
+      astro: 5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -2531,17 +2528,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.3
 
-  '@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))':
+  '@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/mdx': 4.2.4(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
+      '@astrojs/mdx': 4.2.4(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))
       '@astrojs/sitemap': 3.3.0
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
-      astro-expressive-code: 0.41.1(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
+      astro: 5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)
+      astro-expressive-code: 0.41.1(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.2
@@ -2741,7 +2738,7 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.1
 
-  '@fontsource/inter@5.2.5': {}
+  '@fontsource/inter@5.2.6': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -3112,12 +3109,12 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@volar/kit@2.4.2(typescript@5.5.4)':
+  '@volar/kit@2.4.2(typescript@5.9.2)':
     dependencies:
       '@volar/language-service': 2.4.2
       '@volar/typescript': 2.4.2
       typesafe-path: 0.2.2
-      typescript: 5.5.4
+      typescript: 5.9.2
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.0.8
 
@@ -3204,12 +3201,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.1(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)):
+  astro-expressive-code@0.41.1(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)):
     dependencies:
-      astro: 5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1)
+      astro: 5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1)
       rehype-expressive-code: 0.41.1
 
-  astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1):
+  astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -3256,7 +3253,7 @@ snapshots:
       shiki: 3.2.2
       tinyexec: 0.3.2
       tinyglobby: 0.2.12
-      tsconfck: 3.1.5(typescript@5.5.4)
+      tsconfck: 3.1.5(typescript@5.9.2)
       ultrahtml: 1.6.0
       unifont: 0.2.0
       unist-util-visit: 5.0.0
@@ -3269,7 +3266,7 @@ snapshots:
       yocto-spinner: 0.2.1
       zod: 3.24.3
       zod-to-json-schema: 3.24.5(zod@3.24.3)
-      zod-to-ts: 1.2.0(typescript@5.5.4)(zod@3.24.3)
+      zod-to-ts: 1.2.0(typescript@5.9.2)(zod@3.24.3)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -3428,7 +3425,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concurrently@9.1.2:
+  concurrently@9.2.0:
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
@@ -4958,9 +4955,9 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-package-managers@0.11.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))):
+  starlight-package-managers@0.11.0(@astrojs/starlight@0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))):
     dependencies:
-      '@astrojs/starlight': 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.5.4)(yaml@2.5.1))
+      '@astrojs/starlight': 0.34.0(astro@5.7.4(rollup@4.40.0)(typescript@5.9.2)(yaml@2.5.1))
 
   stream-replace-string@2.0.0: {}
 
@@ -5034,9 +5031,9 @@ snapshots:
 
   trough@2.2.0: {}
 
-  tsconfck@3.1.5(typescript@5.5.4):
+  tsconfck@3.1.5(typescript@5.9.2):
     optionalDependencies:
-      typescript: 5.5.4
+      typescript: 5.9.2
 
   tslib@2.8.1: {}
 
@@ -5048,7 +5045,7 @@ snapshots:
     dependencies:
       semver: 7.7.1
 
-  typescript@5.5.4: {}
+  typescript@5.9.2: {}
 
   ufo@1.6.1: {}
 
@@ -5358,9 +5355,9 @@ snapshots:
     dependencies:
       zod: 3.24.3
 
-  zod-to-ts@1.2.0(typescript@5.5.4)(zod@3.24.3):
+  zod-to-ts@1.2.0(typescript@5.9.2)(zod@3.24.3):
     dependencies:
-      typescript: 5.5.4
+      typescript: 5.9.2
       zod: 3.24.3
 
   zod@3.24.3: {}
