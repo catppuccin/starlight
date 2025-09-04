@@ -45,7 +45,7 @@ import { PackageManagers } from "starlight-package-managers";
 4. (Optional) Customize your theme for light/dark mode using `flavor` and `accent`.
 
    ```ts title="astro.config.mjs" ins={10-11}
-   import catppuccin from "@catppuccin/starlight";
+   import starlightCatppuccin from "@catppuccin/starlight";
 
    export default defineConfig({
      // ...
@@ -53,7 +53,7 @@ import { PackageManagers } from "starlight-package-managers";
        starlight({
          // ...
          plugins: [
-           catppuccin({
+           starlightCatppuccin({
              dark: { flavor: "macchiato", accent: "sky" },
              light: { flavor: "latte", accent: "sky" },
            }),
