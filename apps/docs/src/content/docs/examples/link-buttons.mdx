@@ -1,0 +1,32 @@
+---
+title: Link Buttons
+pagefind: false
+---
+
+import { LinkButton } from '@astrojs/starlight/components'
+
+## No icons
+
+Link buttons rendered with the [`<LinkButton>` component](https://starlight.astro.build/components/link-buttons/).
+
+<LinkButton href="#_">Primary</LinkButton>
+<LinkButton href="#_" variant="secondary">
+  Secondary
+</LinkButton>
+<LinkButton href="#_" variant="minimal">
+  Minimal
+</LinkButton>
+
+## With icons
+
+Link buttons rendered with the [`<LinkButton>` component](https://starlight.astro.build/components/link-buttons/) and [an icon](https://starlight.astro.build/components/link-buttons/#add-icons-to-link-buttons).
+
+<LinkButton href="#_" icon="rocket">
+  Primary
+</LinkButton>
+<LinkButton href="#_" variant="secondary" icon="external">
+  Secondary
+</LinkButton>
+<LinkButton href="#_" variant="minimal" icon="external">
+  Minimal
+</LinkButton>
