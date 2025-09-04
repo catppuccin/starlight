@@ -95,6 +95,7 @@ pnpm build
 
 - [TheOtterlord](https://github.com/TheOtterlord)
 - [Louis Escher](https://github.com/louisescher)
+- [Felix Schneider](https://github.com/trueberryless)
 
 &nbsp;
 
