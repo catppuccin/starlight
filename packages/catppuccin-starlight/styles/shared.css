@@ -1,3 +1,5 @@
+@layer starlight, catppuccin;
+
 @layer catppuccin {
   /* align with style guide for main body copy -> `text` */
   :root {
@@ -12,7 +14,7 @@
   header,
   .right-sidebar,
   .content-panel {
-    border-color: var(--sl-color-hairline-light) !important;
+    border-color: var(--sl-color-hairline-light);
   }
 
   site-search kbd {

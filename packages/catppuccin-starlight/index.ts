@@ -38,10 +38,9 @@ export default function createPlugin(config?: Config): StarlightPlugin {
 				updateConfig({
 					customCss: [
 						...(config.customCss ?? []),
-						"@catppuccin/starlight/styles/layers.css",
+						"@catppuccin/starlight/styles/shared.css",
 						`@catppuccin/starlight/themes/catppuccin-${dark?.flavor ?? "mocha"}-${dark?.accent ?? "mauve"}.css`,
 						`@catppuccin/starlight/themes/catppuccin-${light?.flavor ?? "latte"}-${light?.accent ?? "mauve"}.css`,
-						"@catppuccin/starlight/styles/shared.css",
 					],
 				});
 			},
