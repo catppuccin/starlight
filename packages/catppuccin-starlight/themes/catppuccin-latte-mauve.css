@@ -1,5 +1,5 @@
 @layer catppuccin {
-  :root[data-theme="light"] {
+  :root[data-theme='light'] {
     --sl-color-accent-low: hsl(266, 85%, 80%);
     --sl-color-accent: hsl(266, 85%, 58%);
     --sl-color-accent-high: hsl(266, 85%, 48%);
