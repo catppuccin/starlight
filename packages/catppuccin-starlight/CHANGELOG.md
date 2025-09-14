@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/catppuccin/starlight/compare/v1.0.2...v1.1.0) (2025-09-14)
+
+
+### Features
+
+* define styles in `catppuccin` cascade layer ([#50](https://github.com/catppuccin/starlight/issues/50)) ([e7d22c8](https://github.com/catppuccin/starlight/commit/e7d22c851cb797f41c851be4c6fde7f05a92b96d))
+
 ## [1.0.2](https://github.com/catppuccin/starlight/compare/v1.0.1...v1.0.2) (2025-08-21)
 
 
