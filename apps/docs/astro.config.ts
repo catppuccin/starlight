@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import catppuccin from "@catppuccin/starlight";
+import starlightCatppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
@@ -41,18 +41,15 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: "Guides",
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: "Install", slug: "guides/install" },
-					],
+					label: 'Start Here',
+					items: ['getting-started', 'configuration', 'customization'],
 				},
 				{
-					label: "Reference",
-					autogenerate: { directory: "reference" },
+					label: 'Examples',
+					items: ['components'],
 				},
 			],
-			plugins: [catppuccin()],
+			plugins: [starlightCatppuccin()],
 		}),
 	],
 });

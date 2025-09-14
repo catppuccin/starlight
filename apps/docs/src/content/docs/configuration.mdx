@@ -1,0 +1,115 @@
+---
+title: Configuration
+description: An overview of all the configuration options supported by the Starlight Catppuccin theme.
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 4
+---
+
+The Starlight Catppuccin theme can be configured inside the `astro.config.mjs` configuration file of your project:
+
+```js {11}
+// astro.config.mjs
+import starlight from "@astrojs/starlight";
+import { defineConfig } from "astro/config";
+import starlightCatppuccin from "@catppuccin/starlight";
+
+export default defineConfig({
+  integrations: [
+    starlight({
+      plugins: [
+        starlightCatppuccin({
+          // Configuration options go here.
+        }),
+      ],
+      title: "My Docs",
+    }),
+  ],
+});
+```
+
+## Configuration options
+
+The Starlight Catppuccin theme accepts the following configuration options:
+
+### `dark`
+
+**Type:** `{ flavor: string; accent: string }`  
+**Default:** `{ flavor: "mocha", accent: "mauve" }`
+
+Configure the theme for the dark mode.
+
+#### `flavor`
+
+**Type:** `string`  
+**Default:** `mocha`
+
+Configure the flavor for the dark theme.  
+Available values are:
+
+- `"mocha"`
+- `"macchiato"`
+- `"frappe"`
+
+#### `accent`
+
+**Type:** `string`  
+**Default:** `mauve`
+
+Configure the accent for the dark theme.  
+Available values are:
+
+- `"rosewater"`
+- `"flamingo"`
+- `"pink"`
+- `"mauve"`
+- `"red"`
+- `"maroon"`
+- `"peach"`
+- `"yellow"`
+- `"green"`
+- `"teal"`
+- `"sky"`
+- `"sapphire"`
+- `"blue"`
+- `"lavender"`
+
+### `light`
+
+**Type:** `{ flavor: string; accent: string }`  
+**Default:** `{ flavor: "latte", accent: "mauve" }`
+
+Configure the theme for the light mode.
+
+#### `flavor`
+
+**Type:** `string`  
+**Default:** `latte`
+
+Configure the flavor for the light theme.  
+Available values are:
+
+- `"latte"`
+
+#### `accent`
+
+**Type:** `string`  
+**Default:** `mauve`
+
+Configure the accent for the dark theme.  
+Available values are:
+
+- `"rosewater"`
+- `"flamingo"`
+- `"pink"`
+- `"mauve"`
+- `"red"`
+- `"maroon"`
+- `"peach"`
+- `"yellow"`
+- `"green"`
+- `"teal"`
+- `"sky"`
+- `"sapphire"`
+- `"blue"`
+- `"lavender"`
