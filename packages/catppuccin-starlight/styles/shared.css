@@ -1,25 +1,31 @@
-/* align with style guide for main body copy -> `text` */
-:root {
-  --sl-color-text: var(--sl-color-white);
-}
+@layer starlight, catppuccin;
 
-/* increase contrast of ToC in the right sidebar */
-.right-sidebar-panel a:not(:hover):not([aria-current="true"]) {
-  color: var(--sl-color-gray-2);
-}
+@layer catppuccin {
+  /* align with style guide for main body copy -> `text` */
+  :root {
+    --sl-color-text: var(--sl-color-white);
+  }
 
-header, .right-sidebar, .content-panel {
-  border-color: var(--sl-color-hairline-light) !important;
-}
+  /* increase contrast of ToC in the right sidebar */
+  .right-sidebar-panel a:not(:hover):not([aria-current="true"]) {
+    color: var(--sl-color-gray-2);
+  }
 
-site-search kbd {
-  background-color: var(--sl-color-gray-5);
-}
+  header,
+  .right-sidebar,
+  .content-panel {
+    border-color: var(--sl-color-hairline-light);
+  }
 
-.sl-link-card:hover {
-  background-color: var(--sl-color-gray-6);
-}
+  site-search kbd {
+    background-color: var(--sl-color-gray-5);
+  }
 
-.expressive-code pre {
-  --code-background: var(--sl-color-gray-6);
+  .sl-link-card:hover {
+    background-color: var(--sl-color-gray-6);
+  }
+
+  .expressive-code pre {
+    --code-background: var(--sl-color-gray-6);
+  }
 }

@@ -6,41 +6,42 @@ whiskers:
     - accent
   filename: "themes/catppuccin-{{flavor.identifier}}-{{accent}}.css"
 ---
+@layer catppuccin {
+  :root{{if(cond=flavor.light, t="[data-theme='light']", f="")}} {
+    --sl-color-accent-low: {{if(cond=flavor.dark, t=flavor.colors[accent] | sub(lightness=60) | css_hsl, f=flavor.colors[accent] | add(lightness=22) | css_hsl)}};
+    --sl-color-accent: {{if(cond=flavor.dark, t=flavor.colors[accent] | sub(lightness=20) | css_hsl, f=flavor.colors[accent] | css_hsl)}};
+    --sl-color-accent-high: {{if(cond=flavor.dark, t=flavor.colors[accent] | css_hsl, f=flavor.colors[accent] | sub(lightness=10) | css_hsl)}};
+    --sl-color-white: #{{text.hex}};
+    --sl-color-gray-1: #{{subtext1.hex}};
+    --sl-color-gray-2: #{{subtext0.hex}};
+    --sl-color-gray-3: #{{overlay2.hex}};
+    --sl-color-gray-4: #{{surface1.hex}};
+    --sl-color-gray-5: #{{surface0.hex}};
+    --sl-color-gray-6: #{{mantle.hex}};
+    --sl-color-gray-7: #{{crust.hex}};
+    --sl-color-black: #{{base.hex}};
 
-:root{{if(cond=flavor.light, t="[data-theme='light']", f="")}} {
-	--sl-color-accent-low: {{if(cond=flavor.dark, t=flavor.colors[accent] | sub(lightness=60) | css_hsl, f=flavor.colors[accent] | add(lightness=22) | css_hsl)}};
-	--sl-color-accent: {{if(cond=flavor.dark, t=flavor.colors[accent] | sub(lightness=20) | css_hsl, f=flavor.colors[accent] | css_hsl)}};
-	--sl-color-accent-high: {{if(cond=flavor.dark, t=flavor.colors[accent] | css_hsl, f=flavor.colors[accent] | sub(lightness=10) | css_hsl)}};
-	--sl-color-white: #{{text.hex}};
-	--sl-color-gray-1: #{{subtext1.hex}};
-	--sl-color-gray-2: #{{subtext0.hex}};
-	--sl-color-gray-3: #{{overlay2.hex}};
-	--sl-color-gray-4: #{{surface1.hex}};
-	--sl-color-gray-5: #{{surface0.hex}};
-	--sl-color-gray-6: #{{mantle.hex}};
-	--sl-color-gray-7: #{{crust.hex}};
-	--sl-color-black: #{{base.hex}};
+    --sl-hue-orange: {{peach.hsl.h}};
+    --sl-color-orange-low: {{if(cond=flavor.dark, t=peach | sub(lightness=50) | sub(saturation=60) | css_hsl, f=peach | add(lightness=35) | sub(saturation=30) | css_hsl)}};
+    --sl-color-orange: {{if(cond=flavor.dark, t=peach | sub(lightness=20, saturation=20) | css_hsl, f=peach | sub(lightness=10) | css_hsl)}};
+    --sl-color-orange-high: {{if(cond=flavor.dark, t=peach | css_hsl, f=peach | css_hsl)}};
+    --sl-hue-green: {{green.hsl.h}};
+    --sl-color-green-low: {{if(cond=flavor.dark, t=green | sub(lightness=50) | sub(saturation=40) | css_hsl, f=green | add(lightness=35) | sub(saturation=30) | css_hsl)}};
+    --sl-color-green: {{if(cond=flavor.dark, t=green | sub(lightness=20, saturation=20) | css_hsl, f=green | sub(lightness=10) | css_hsl)}};
+    --sl-color-green-high: {{if(cond=flavor.dark, t=green | css_hsl, f=green | css_hsl)}};
+    --sl-hue-blue: {{blue.hsl.h}};
+    --sl-color-blue-low: {{if(cond=flavor.dark, t=blue | sub(lightness=50) | sub(saturation=60) | css_hsl, f=blue | add(lightness=35) | sub(saturation=30) | css_hsl)}};
+    --sl-color-blue: {{if(cond=flavor.dark, t=blue | sub(lightness=20, saturation=20) | css_hsl, f=blue | sub(lightness=10) | css_hsl)}};
+    --sl-color-blue-high: {{if(cond=flavor.dark, t=blue | css_hsl, f=blue | css_hsl)}};
+    --sl-hue-purple: {{mauve.hsl.h}};
+    --sl-color-purple-low: {{if(cond=flavor.dark, t=mauve | sub(lightness=55) | sub(saturation=50) | css_hsl, f=mauve | add(lightness=30) | sub(saturation=30) | css_hsl)}};
+    --sl-color-purple: {{if(cond=flavor.dark, t=mauve | sub(lightness=20, saturation=20) | css_hsl, f=mauve | sub(lightness=10) | css_hsl)}};
+    --sl-color-purple-high: {{if(cond=flavor.dark, t=mauve | css_hsl, f=mauve | css_hsl)}};
+    --sl-hue-red: {{red.hsl.h}};
+    --sl-color-red-low: {{if(cond=flavor.dark, t=red | sub(lightness=50) | sub(saturation=55) | css_hsl, f=red | add(lightness=40) | sub(saturation=30) | css_hsl)}};
+    --sl-color-red: {{if(cond=flavor.dark, t=red | sub(lightness=20, saturation=20) | css_hsl, f=red | sub(lightness=10) | css_hsl)}};
+    --sl-color-red-high: {{if(cond=flavor.dark, t=red | css_hsl, f=red | css_hsl)}};
 
-  --sl-hue-orange: {{peach.hsl.h}};
-	--sl-color-orange-low: {{if(cond=flavor.dark, t=peach | sub(lightness=50) | sub(saturation=60) | css_hsl, f=peach | add(lightness=35) | sub(saturation=30) | css_hsl)}};
-	--sl-color-orange: {{if(cond=flavor.dark, t=peach | sub(lightness=20, saturation=20) | css_hsl, f=peach | sub(lightness=10) | css_hsl)}};
-	--sl-color-orange-high: {{if(cond=flavor.dark, t=peach | css_hsl, f=peach | css_hsl)}};
-	--sl-hue-green: {{green.hsl.h}};
-	--sl-color-green-low: {{if(cond=flavor.dark, t=green | sub(lightness=50) | sub(saturation=40) | css_hsl, f=green | add(lightness=35) | sub(saturation=30) | css_hsl)}};
-	--sl-color-green: {{if(cond=flavor.dark, t=green | sub(lightness=20, saturation=20) | css_hsl, f=green | sub(lightness=10) | css_hsl)}};
-	--sl-color-green-high: {{if(cond=flavor.dark, t=green | css_hsl, f=green | css_hsl)}};
-	--sl-hue-blue: {{blue.hsl.h}};
-	--sl-color-blue-low: {{if(cond=flavor.dark, t=blue | sub(lightness=50) | sub(saturation=60) | css_hsl, f=blue | add(lightness=35) | sub(saturation=30) | css_hsl)}};
-	--sl-color-blue: {{if(cond=flavor.dark, t=blue | sub(lightness=20, saturation=20) | css_hsl, f=blue | sub(lightness=10) | css_hsl)}};
-	--sl-color-blue-high: {{if(cond=flavor.dark, t=blue | css_hsl, f=blue | css_hsl)}};
-	--sl-hue-purple: {{mauve.hsl.h}};
-	--sl-color-purple-low: {{if(cond=flavor.dark, t=mauve | sub(lightness=55) | sub(saturation=50) | css_hsl, f=mauve | add(lightness=30) | sub(saturation=30) | css_hsl)}};
-	--sl-color-purple: {{if(cond=flavor.dark, t=mauve | sub(lightness=20, saturation=20) | css_hsl, f=mauve | sub(lightness=10) | css_hsl)}};
-	--sl-color-purple-high: {{if(cond=flavor.dark, t=mauve | css_hsl, f=mauve | css_hsl)}};
-	--sl-hue-red: {{red.hsl.h}};
-	--sl-color-red-low: {{if(cond=flavor.dark, t=red | sub(lightness=50) | sub(saturation=55) | css_hsl, f=red | add(lightness=40) | sub(saturation=30) | css_hsl)}};
-	--sl-color-red: {{if(cond=flavor.dark, t=red | sub(lightness=20, saturation=20) | css_hsl, f=red | sub(lightness=10) | css_hsl)}};
-	--sl-color-red-high: {{if(cond=flavor.dark, t=red | css_hsl, f=red | css_hsl)}};
-
-  color-scheme: {{if(cond=flavor.light, t="light", f="dark")}};
+    color-scheme: {{if(cond=flavor.light, t="light", f="dark")}};
+  }
 }
