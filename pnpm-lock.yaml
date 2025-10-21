@@ -52,7 +52,7 @@ importers:
         version: 0.34.3
       starlight-package-managers:
         specifier: ^0.11.0
-        version: 0.11.0(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)(yaml@2.8.1)))
+        version: 0.11.1(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)(yaml@2.8.1)))
       typescript:
         specifier: 'catalog:'
         version: 5.9.2
@@ -1921,6 +1921,7 @@ packages:
   sitemap@8.0.0:
     resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
     engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    deprecated: 'SECURITY: Multiple vulnerabilities fixed in 8.0.1 (XML injection, path traversal, command injection, protocol injection). Upgrade immediately: npm install sitemap@8.0.1'
     hasBin: true
 
   smol-toml@1.4.2:
@@ -1938,8 +1939,8 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  starlight-package-managers@0.11.0:
-    resolution: {integrity: sha512-ItOgeF4YYI4lKaeqGBuRBNsmPTXQv16Pc7U+hzkvJoR9HzOxhk2wSNkRzxSnqX5OZmmsAwDy49NYqpFyzkO8Bw==}
+  starlight-package-managers@0.11.1:
+    resolution: {integrity: sha512-GDGJAozmBvmo8CVrOTnYTtnFO1C0kvMPorQ7CF9Khqt2O5mdRtE9JFj+MYh8hU78TdacXFGlJNJDMfHFl7jxiw==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.22.0'
@@ -4873,7 +4874,7 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-package-managers@0.11.0(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)(yaml@2.8.1))):
+  starlight-package-managers@0.11.1(@astrojs/starlight@0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)(yaml@2.8.1))):
     dependencies:
       '@astrojs/starlight': 0.35.2(astro@5.13.2(@types/node@24.3.0)(rollup@4.46.3)(typescript@5.9.2)(yaml@2.8.1))
 
