@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/catppuccin/starlight/compare/v1.1.0...v1.1.1) (2026-01-25)
+
+
+### Bug Fixes
+
+* use green for tip callouts/asides ([#66](https://github.com/catppuccin/starlight/issues/66)) ([190f4fd](https://github.com/catppuccin/starlight/commit/190f4fd7b01d1d974f483f08e7960fa104fdbe9c))
+
 ## [1.1.0](https://github.com/catppuccin/starlight/compare/v1.0.2...v1.1.0) (2025-09-14)
 
 
