@@ -50,7 +50,7 @@
   },
   "peerDependencies": {
     "@astrojs/starlight": ">=0.34",
-    "astro": "^5.0.0"
+    "astro": "^5.0.0 || ^6.0.0"
   },
   "dependencies": {
     "@astrojs/starlight": "catalog:"
