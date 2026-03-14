@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/catppuccin/starlight/compare/v1.1.1...v2.0.0) (2026-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade minimum supported versions to Astro 6 & Starlight 0.38 ([#75](https://github.com/catppuccin/starlight/issues/75))
+
+### Features
+
+* Upgrade minimum supported versions to Astro 6 & Starlight 0.38 ([#75](https://github.com/catppuccin/starlight/issues/75)) ([509556f](https://github.com/catppuccin/starlight/commit/509556f6a1fa3b8642a007229a7ce8ca1f65172a))
+
 ## [1.1.1](https://github.com/catppuccin/starlight/compare/v1.1.0...v1.1.1) (2026-01-25)
 
 
