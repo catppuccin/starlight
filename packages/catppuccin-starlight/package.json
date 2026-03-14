@@ -45,12 +45,12 @@
   },
   "devDependencies": {
     "astro": "catalog:",
-    "nodemon": "^3.1.7",
+    "nodemon": "^3.1.14",
     "typescript": "catalog:"
   },
   "peerDependencies": {
-    "@astrojs/starlight": ">=0.34",
-    "astro": "^5.0.0"
+    "@astrojs/starlight": ">=0.38",
+    "astro": "^6.0.0"
   },
   "dependencies": {
     "@astrojs/starlight": "catalog:"
