@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/catppuccin/starlight/compare/v2.0.0...v2.0.1) (2026-03-15)
+
+
+### Continuous Integration
+
+* **release-please:** setup trusted publishing ([6d59705](https://github.com/catppuccin/starlight/commit/6d59705e2ded4dcab2fc6b184d992ce9d8433bdf))
+
 ## [2.0.0](https://github.com/catppuccin/starlight/compare/v1.1.1...v2.0.0) (2026-03-14)
 
 
