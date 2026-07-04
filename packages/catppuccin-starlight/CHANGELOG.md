@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/catppuccin/starlight/compare/v2.0.1...v2.1.0) (2026-07-04)
+
+
+### Features
+
+* add support for Astro v7 ([#92](https://github.com/catppuccin/starlight/issues/92)) ([e654405](https://github.com/catppuccin/starlight/commit/e654405d087029b6cb3bdda1ad59beaba4fa328a))
+
 ## [2.0.1](https://github.com/catppuccin/starlight/compare/v2.0.0...v2.0.1) (2026-03-15)
 
 
