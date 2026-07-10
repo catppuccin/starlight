@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Build & Upload Site
-        uses: withastro/action@v5
+        uses: withastro/action@v6
         with:
           path: ./apps/docs
           package-manager: pnpm@10.15.0
